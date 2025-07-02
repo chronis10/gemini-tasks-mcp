@@ -38,7 +38,7 @@ nano settings.json
 
 ```json
 "mcpServers": {
-    "gmailReader": {
+    "gmailTasks": {
       "command": "uv",
       "args": ["run", "main.py"],
       "cwd": "<<full-path>>/gemini-tasks-mcp",
