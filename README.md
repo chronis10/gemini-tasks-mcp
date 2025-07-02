@@ -16,7 +16,8 @@ Manage Google Tasks using a simple FastMCP API server for Gemini-CLI
 pip install uv
 cd gemini-tasks-mcp
 uv venv
-uv pip install
+source .venv/bin/activate
+uv run main.py
 ```
 
 ### Generate Google API Credentials
